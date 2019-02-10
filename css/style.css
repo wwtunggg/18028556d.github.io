@@ -1,0 +1,106 @@
+#container{
+  border: 1.5px solid black;
+  box-sizing: border-box;
+  border-top: none;
+  border-bottom: none;
+  background-color:#33CCFF;  
+}
+
+
+
+#header{
+  border-bottom: 1.5px solid black;
+  border-top: 1.5px solid black;
+  box-sizing: border-box;
+  background-color:#004B97;
+  color:white;
+  font-family:"Comic Sans MS",cursive,sans-serif}
+
+#code{
+  text-align: right;
+  padding-right:30px;    
+  
+}
+
+#motto{
+  text-align: center;
+  
+}
+
+#top_nav {
+	width:200px;
+    margin: auto;
+	word-spacing: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+
+table, th, td {
+	border: 1.5px solid black;
+	border-collapse: collapse;
+	box-sizing: border-box;
+	border-bottom:none;
+	padding:8px;
+	background-color:#8E8E8E;
+	font-family:FreeMono, monospace;
+}
+
+.top{
+	color:#710909;
+}
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  font-family:Georgia,serif;
+}
+
+#left_nav{
+  width: 20%;
+  float: left; 
+  box-sizing: border-box; 
+  text-align: center;
+  background-color:#33CCFF;
+  
+}
+
+
+#main{
+  background:url("two.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  position:relative;
+  width: 80%;
+  float: right;
+  box-sizing: border-box;
+  border-left:1.5px solid black;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+#image{
+  float:right; 
+  padding-right:100px;
+}
+
+#footer{
+  clear: both;
+  border-top: 1.5px solid black; 
+  text-align: center;
+  border-bottom: 1.5px solid black; 
+  background-color:#8E8E8E;
+  color:#710909;
+  font-family:FreeMono, monospace;
+}  
+
+a{
+  color:red;
+}
+
+li{
+ padding-top:10px;
+}
+
+
